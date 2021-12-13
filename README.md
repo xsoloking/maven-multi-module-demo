@@ -15,4 +15,15 @@ Demo of 'Maven multi module' project WITH unit- and/or integration testing with 
    * mvn clean install -P test-all          => unit AND integration testing + (combined) reporting !
    
 # Overview: 
+
 <img src="TestResults.png" alt="Overview of the results"/>)
+
+# Branches: alternatives
+
+There are a few alternatives (in branches) available:
+
+* Behavior as shown above
+* Multi module with only unit tests (with the Surefire plugin in the root pom.xml)
+* Multi module with only unit tests with the Surefire plugin in the pom.xml of each module
+
+In all cases, the result is available 
