@@ -22,8 +22,8 @@ Demo of 'Maven multi module' project WITH unit- and/or integration testing with 
 
 There are a few alternatives (in branches) available:
 
-* Behavior as shown above
-* Multi module with only unit tests (with the Surefire plugin in the root pom.xml)
-* Multi module with only unit tests with the Surefire plugin in the pom.xml of each module
+* master: Behavior as shown above
+* multi-module-only-unit-tests: Multi module with only unit tests with the Surefire plugin in the root pom.xml
+* multi-module-unit-tests-try2: Multi module with only unit tests with the Surefire plugin in the pom.xml of each module
 
 In all cases, the result is available 
